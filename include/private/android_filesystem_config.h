@@ -225,6 +225,12 @@ static struct fs_path_config android_files[] = {
     { 00750, AID_ROOT,      AID_SHELL,     "charger*" },
     { 00750, AID_ROOT,      AID_SHELL,     "sbin/fs_mgr" },
     { 00640, AID_ROOT,      AID_SHELL,     "fstab.*" },
+
+    /* B2G files */
+    { 00755, AID_ROOT,      AID_ROOT,      "system/b2g/b2g" },
+    { 00755, AID_ROOT,      AID_ROOT,      "system/b2g/plugin-container" },
+    { 00755, AID_ROOT,      AID_ROOT,      "system/b2g/updater" },
+
     { 00644, AID_ROOT,      AID_ROOT,       0 },
 };
 
